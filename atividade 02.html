@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         alert('Diga as suas notas')
+         
+         let n1 = parseFloat(prompt("NOTA 1"));
+         let n2 = parseFloat(prompt("NOTA 2"));
+         let n3 = parseFloat(prompt("NOTA 3"));
+         let n4 = parseFloat(prompt("NOTA 4"));
+         
+
+         let soma = n1 + n2 + n3 + n4;
+         let media = soma/ 4;
+
+        
+
+         if(media>=7.0){
+         alert('Aprovado: ' + media);
+         }
+         else{
+         let notaProvadeRecuperação = parseFloat(prompt("NOTA PROVA DE RECUPERAÇÃO"));
+         let novaMedia = (Media + notarecuperação)/2;
+         }
+         
+         if(novaMedia>=5.0){
+            alert('Aluno aprovado com a nova media:' + novaMedia)
+         }
+         else{
+            alert('Aluno reprovado com a nova media:' + novaMedia) 
+         }
+    </script>
+</body>
+</html>

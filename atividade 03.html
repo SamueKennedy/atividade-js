@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let Sexo = prompt("Informe seu sexo: \n1.Masculino \n2.Feminino");
+        let Altura = parseFloat(prompt("Informe sua altura"));
+
+        if(Sexo === "1"){
+            let contaMasculino = 72.7*Altura-58;
+            alert('Seu ideal é:' + contaMasculino + "kg")
+        }
+            if(Sexo === "2"){
+                let contaFeminino = 61.1*Altura-44.7;
+                alert('Seu peso ideal é:' + contaFeminino + "kg")
+            }
+    </script>
+</body>
+</html>
